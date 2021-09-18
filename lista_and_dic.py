@@ -8,12 +8,12 @@ for item in lista:
 print('---------------------')
 
 #Percorrendo um dicionário
-dicts = {
+dic = {
     "nome": "Luiz",
     "idade": 24,
     "altura": 1.90
 }
 
-for pessoa in dicts:
-    p = dicts[pessoa]
+for pessoa in dic:
+    p = dic[pessoa]
     print(p)
